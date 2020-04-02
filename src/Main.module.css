@@ -1,4 +1,21 @@
 .main {
     height: 100vh;
     background-color: pink;
+    display: flex;
+    justify-content: center;
 }
+
+.container {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+}
+
+.greeting {
+
+}
+
+.photo {
+
+}
+
