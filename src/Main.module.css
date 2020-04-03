@@ -9,13 +9,21 @@
     width: 80%;
     border: 1px solid;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .greeting {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .photo {
-
+    height: 50%;
+    width: 40%;
+    background-color: darkgray;
 }
 

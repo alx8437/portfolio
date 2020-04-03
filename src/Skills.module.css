@@ -1,4 +1,30 @@
 .skills {
     height: 100vh;
     background-color: #b1ffae;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 80%;
+    border: 1px solid;
+}
+
+.header {
+    height: 30%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.item {
+
 }

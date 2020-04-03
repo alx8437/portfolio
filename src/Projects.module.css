@@ -1,4 +1,26 @@
 .projects {
     height: 100vh;
     background-color: #ff93e7;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 80%;
+    border: 1px solid;
+}
+
+.header {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.items {
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 }
