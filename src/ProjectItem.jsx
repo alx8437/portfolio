@@ -1,12 +1,13 @@
 import React from "react"
 import styles from './ProjectItem.module.css'
+import projectImg from './img/project_img.jpg'
 
 const ProjectItem = () => {
     return (
         <div className={styles.projectItem}>
             <div className={styles.preview}>
                 <div className={styles.imgItem}>
-                    <img src="" alt="картинка"/>
+                    <img src={projectImg} alt="картинка"/>
                 </div>
             </div>
             <div className={styles.title}>
@@ -15,11 +16,7 @@ const ProjectItem = () => {
             <div className={styles.describe}>
                 Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. Cupiditate pariatur qui
-                quia ut? Eius harum ipsa iste, iusto nisi                Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Cupiditate pariatur qui
-                quia ut? Eius harum ipsa iste, iusto nisi                Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Cupiditate pariatur qui
-                quia ut? Eius harum ipsa iste, iusto nisi
+
 
             </div>
         </div>

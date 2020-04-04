@@ -7,7 +7,6 @@
 
 .container {
     width: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,4 +38,10 @@ textarea {
 .send {
 
 
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
 }

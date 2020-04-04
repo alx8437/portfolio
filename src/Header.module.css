@@ -10,6 +10,12 @@
     justify-content: flex-end;
     align-items: center;
     width: 80%;
-    border: 1px solid;
 }
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
+
 

@@ -1,7 +1,7 @@
 .skillItem {
     height: 100%;
-    width: 350px;
-    background-color: orange;
+    max-width: 320px;
+    background-color: #b1ffae;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -9,7 +9,6 @@
 
 .title {
     height: 30%;
-    border: 1px solid;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -27,4 +26,14 @@
     padding: 10px;
 }
 
+@media (max-width: 768px) {
+    .skillItem {
+        height: 100%;
+        max-width: 320px;
+        background-color: #b1ffae;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
 

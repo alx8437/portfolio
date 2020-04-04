@@ -8,19 +8,34 @@
 
 .container {
     width: 80%;
-    border: 1px solid;
 }
 
-.header {
-    height: 30%;
+.title {
+    height: 6%;
     display: flex;
     justify-content: center;
-    border: 1px solid;
 }
 
 .items {
-    height: 70%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .title {
+        margin-top: 5px;
+    }
+    .items {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 }

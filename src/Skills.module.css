@@ -8,12 +8,10 @@
 
 .container {
     width: 80%;
-    border: 1px solid;
 }
 
 .header {
     height: 30%;
-    border: 1px solid;
     display: flex;
     justify-content: center;
 }
@@ -26,5 +24,24 @@
 }
 
 .item {
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        height: 6%;
+        display: flex;
+        justify-content: center;
+    }
+    .items {
+        height: 32%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 }

@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div className={styles.projects}>
             <div className={styles.container}>
-                <div className={styles.header}>
+                <div className={styles.title}>
                     <span>My projects</span>
                 </div>
                 <div className={styles.items}>

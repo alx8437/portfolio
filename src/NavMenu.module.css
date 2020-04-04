@@ -4,3 +4,11 @@
     justify-content: space-between;
 }
 
+@media (max-width: 576px) {
+    .navMenu {
+        min-width: 320px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
