@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.css';
 import Header from "./Header";
 import Main from "./Main";
 import Skills from "./Skills";
@@ -10,8 +10,8 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <div className="portfolio">
+    <div className={styles.App}>
+      <div className={styles.container}>
             <Header />
             <Main />
             <Skills />

@@ -6,11 +6,11 @@ const Contacts = () => {
         <div className={styles.contacts}>
             <div className={styles.container}>
                 <div className={styles.communications}>Контакты</div>
-                <div className={styles.form}>
-                    <form action="">
-                        <input type="text" size="500px"/>
-                        <input type="text"/>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div className={styles.formWrapper}>
+                    <form >
+                        <input/>
+                        <input/>
+                        <textarea></textarea>
                     </form>
                 </div>
                 <button className={styles.send}>Отправить</button>
