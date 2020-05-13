@@ -17,17 +17,12 @@
 
 }
 
-.formWrapper {
-    width: 500px;
+form {
     height: 250px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-}
-
-textarea {
-    height: 300px;
 }
 
 input {
@@ -47,9 +42,6 @@ textarea {
 
 @media (max-width: 576px) {
     .container {
-        width: 100%;
-    }
-    .formWrapper {
         width: 100%;
     }
 }
