@@ -6,9 +6,9 @@ const Main = () => {
         <div className={styles.main}>
             <div className={styles.container}>
                 <div className={styles.greeting}>
-                    <span>Hello!</span>
-                    <span>My name's Aleksandr Zelenskiy</span>
-                    <span>I'm front-end developer!</span>
+                    <span>Привет!</span>
+                    <span>Меня зовут Александр Зеленский!</span>
+                    <h1>Я FRONT-END РАЗРАБОТЧИК!</h1>
                 </div>
                 <div className={styles.photo}>
                     <img src="#" alt="photo"/>

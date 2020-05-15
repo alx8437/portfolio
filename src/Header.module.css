@@ -2,14 +2,16 @@
     height: 70px;
     display: flex;
     justify-content: center;
-    background-color: #b7e2ff;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
 }
 
 .container {
+    width: 80%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 80%;
 }
 
 @media (max-width: 576px) {
