@@ -1,18 +1,19 @@
 import React from "react";
 import styles from './Skills.module.css'
 import SkillItem from "./SkillItem";
+import Title from "./Title";
 
 const Skills = () => {
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
-                <div className={styles.header}>
-                    <span>My skills</span>
-                </div>
+
+                <Title titleName={"My Skills"}/>
+
                 <div className={styles.items}>
-                    <SkillItem />
-                    <SkillItem />
-                    <SkillItem />
+                    <SkillItem label={"React"}/>
+                    <SkillItem label={"Redux"}/>
+                    <SkillItem label={"Angular"}/>
                 </div>
 
             </div>

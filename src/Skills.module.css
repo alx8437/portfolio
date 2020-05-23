@@ -1,8 +1,9 @@
 .skills {
     height: 100vh;
-    background-color: #b1ffae;
+    background-color: #252527;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -10,11 +11,6 @@
     width: 80%;
 }
 
-.header {
-    height: 30%;
-    display: flex;
-    justify-content: center;
-}
 
 .items {
     height: 70%;
@@ -31,10 +27,8 @@
     .container {
         width: 100%;
     }
-    .header {
-        height: 6%;
-        display: flex;
-        justify-content: center;
+    .skills {
+        height: 100%;
     }
     .items {
         height: 32%;

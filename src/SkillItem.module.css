@@ -1,10 +1,8 @@
 .skillItem {
-    height: 100%;
+    min-height: 220px;
     max-width: 320px;
-    background-color: #b1ffae;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
 }
 
 .title {
@@ -24,13 +22,14 @@
 
 .describe {
     padding: 10px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .skillItem {
         height: 100%;
         max-width: 320px;
-        background-color: #b1ffae;
+        background-color: #252527;
         display: flex;
         flex-direction: column;
         align-items: stretch;

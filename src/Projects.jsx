@@ -1,14 +1,13 @@
 import React from "react";
 import styles from './Projects.module.css'
 import ProjectItem from "./ProjectItem";
+import Title from "./Title";
 
 const Projects = () => {
     return (
         <div className={styles.projects}>
             <div className={styles.container}>
-                <div className={styles.title}>
-                    <span>My projects</span>
-                </div>
+                <Title titleName={"Project"}/>
                 <div className={styles.items}>
                     <ProjectItem />
                     <ProjectItem />
