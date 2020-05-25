@@ -1,6 +1,6 @@
 .contacts {
     height: 100vh;
-    background-color: #ff7ae7;
+    background-color: #1F1F20;
     display: flex;
     justify-content: center;
 }
@@ -13,35 +13,56 @@
     align-items: center;
 }
 
-.communications {
+.input {
+    width: 500px;
+    background-color: #252527;
+    border: 1px solid black;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+.textarea {
+    width: 500px;
+    height: 200px;
+    background-color: #252527;
+    border: 1px solid black;
+    padding: 15px;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    color: #808080;
+
 
 }
 
-form {
-    height: 250px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-}
-
-input {
-    width: 300px;
-}
-
-textarea {
-    width: 300px;
-}
 
 
 
-.send {
-
-
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .contacts {
+        height: 100%;
+    }
+    .send {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 576px) {
-    .container {
-        width: 100%;
+
+    .textarea {
+        width: 260px;
+    }
+
+    .input {
+        width: 260px;
+    }
+
+    .send {
+        padding: 20px;
     }
 }

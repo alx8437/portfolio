@@ -1,19 +1,33 @@
 import React from "react";
 import styles from './Contacts.module.css'
+import Title from "./Title";
+import Button from "./Button";
 
 const Contacts = () => {
     return (
         <div className={styles.contacts}>
             <div className={styles.container}>
-                <div className={styles.communications}>Контакты</div>
+                <Title titleName={"Контакты"}/>
                 <div className={styles.formWrapper}>
-                    <form >
-                        <input/>
-                        <input/>
-                        <textarea></textarea>
-                    </form>
+                    <div className={styles.inputWrapper}>
+                        <input className={styles.input} type="text" placeholder="Name"/>
+                    </div>
+                    <div className={styles.inputWrapper}>
+                        <input className={styles.input} type="text" placeholder="E-mail"/>
+                    </div>
+                    <div className={styles.textareaWrapper}>
+                        <textarea
+
+                            className={styles.textarea}
+                            placeholder="Your message"
+                            wrap="off">
+
+                        </textarea>
+                    </div>
                 </div>
-                <button className={styles.send}>Отправить</button>
+                <div className={styles.send}>
+                    <Button nameButton={"Отправить"}/>
+                </div>
 
             </div>
 

@@ -1,18 +1,25 @@
 import React from "react"
 import styles from './ProjectItem.module.css'
-import projectImg from './img/project_img.jpg'
+import Button from "./Button";
 
-const ProjectItem = () => {
+const ProjectItem = (props) => {
     return (
         <div className={styles.projectItem}>
-            <img src={projectImg} alt="картинка"/>
+            <div className={styles.preview}>
+                <div className={styles.buttonPosition}>
+                    <Button nameButton={"Смотреть"}/>
+                </div>
+            </div>
+
             <div className={styles.title}>
-                My project on the React
+                {props.title}
             </div>
             <div className={styles.describe}>
                 Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. Cupiditate pariatur qui
             </div>
+
+
         </div>
     )
 };

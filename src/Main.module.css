@@ -73,6 +73,11 @@ h1 {
 }
 
 @media (max-width: 992px) {
+
+    .container {
+        width: 90%;
+    }
+
     .greeting span:nth-child(2),
     .greeting span:nth-child(2) span {
         font-size: 46px;
@@ -86,9 +91,8 @@ h1 {
 
     }
 
-    .container {
-        width: 90%;
-    }
+
+
 }
 
 @media (max-width: 768px) {
@@ -102,6 +106,10 @@ h1 {
     .photo {
         height: 320px;
         width: 280px;
+    }
+    .photo img{
+        height: 400px;
+        width: 300px;
     }
 
     .greeting {
@@ -139,6 +147,7 @@ h1 {
 }
 
 @media (max-width: 576px) {
+
     .greeting span:nth-child(2) {
         font-size: 31px;
         line-height: 31px;
@@ -177,8 +186,9 @@ h1 {
         margin-left: 90px;
     }
 
-    img {
+    .photo img{
         width: 280px;
+        height: 373px;
     }
 
     .photo:before {
