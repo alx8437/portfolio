@@ -1,6 +1,9 @@
 import React from "react";
 import styles from './Footer.module.css'
-import Title from "./Title";
+import Title from "./Title"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faLinkedin, faInstagram, faVk } from '@fortawesome/free-brands-svg-icons'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
     return (
@@ -8,10 +11,10 @@ const Footer = () => {
             <div className={styles.container}>
                 <Title  titleName={"Зеленский Александр"} />
                 <div className={styles.social}>
-                    <div className={styles.fb}>fb</div>
-                    <div className={styles.vk}>vk</div>
-                    <div className={styles.in}>in</div>
-                    <div className={styles.ld}>ld</div>
+                    <FontAwesomeIcon icon={ faFacebookF } />
+                    <FontAwesomeIcon icon={ faVk } />
+                    <FontAwesomeIcon icon={ faInstagram } />
+                    <FontAwesomeIcon icon={ faLinkedin } />
                 </div>
                 <div className={styles.copyright}>2020 все защищено</div>
             </div>
