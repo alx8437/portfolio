@@ -5,7 +5,9 @@ const SkillItem = (props) => {
     return (
         <div className={styles.skillItem}>
             <div className={styles.title}>
-                <div className={styles.label}></div>
+                <div className={styles.label}>
+                    <img src={props.icon} alt={'icon'}/>
+                </div>
                 <div className={styles.name}>{props.label}</div>
             </div>
             <div className={styles.describe}>

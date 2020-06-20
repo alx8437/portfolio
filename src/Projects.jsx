@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className={styles.projects}>
             <div className={styles.container}>
-                <Title titleName={"Project"}/>
+                <Title titleName={"Проекты"}/>
                 <div className={styles.items}>
                     <ProjectItem title={"Social network"}/>
                     <ProjectItem title={"TodoList"}/>

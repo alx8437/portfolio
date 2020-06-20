@@ -18,8 +18,6 @@ const ProjectItem = (props) => {
                 Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. Cupiditate pariatur qui
             </div>
-
-
         </div>
     )
 };

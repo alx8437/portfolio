@@ -7,9 +7,7 @@ const Skills = () => {
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
-
-                <Title titleName={"My Skills"}/>
-
+                <Title titleName={"Мои скилы"}/>
                 <div className={styles.items}>
                     <SkillItem label={"React"}/>
                     <SkillItem label={"Redux"}/>
