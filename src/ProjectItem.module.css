@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./img/project_img.jpg");
+    background-image: url("assets/img/project_img.jpg");
     background-size: cover;
 }
 

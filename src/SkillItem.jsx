@@ -8,15 +8,15 @@ const SkillItem = (props) => {
                 <div className={styles.label}>
                     <img src={props.icon} alt={'icon'}/>
                 </div>
-                <div className={styles.name}>{props.label}</div>
+                <h3 className={styles.name}>{props.label}</h3>
             </div>
-            <div className={styles.describe}>
+            <span className={styles.describe}>
                     Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. Cupiditate pariatur qui
                 quia ut? Eius harum ipsa iste, iusto nisi
                 rem suscipit. Lorem ipsum dolor sit amet
 
-            </div>
+            </span>
         </div>
     )
 };
