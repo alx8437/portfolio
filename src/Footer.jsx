@@ -15,7 +15,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={ faInstagram } />
                     <FontAwesomeIcon icon={ faLinkedin } />
                 </div>
-                <div className={styles.copyright}>2020 все защищено</div>
+                <div className={styles.copyright}>© Все права защищены 2020</div>
             </div>
         </div>
     );

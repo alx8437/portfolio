@@ -12,18 +12,43 @@
     align-items: center;
     background-image: url("assets/img/project_img.jpg");
     background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
+.preview:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    background: black;
+    opacity: 0.4;
+}
+
+.titleWrapper {
+    background: #252527;
+}
 
 .title {
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
     margin-top: 10px;
     text-align: center;
-    margin-bottom: 10px;
-    font-size: 20px;
 }
 
 .describe {
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.buttonPosition {
+    position: relative;
 }
 
 
@@ -34,6 +59,10 @@
     }
 
     .preview {
+        width: 500px;
+    }
+
+    .titleWrapper {
         width: 500px;
     }
 
@@ -51,9 +80,16 @@
         height: 250px;
     }
 
+    .preview:before {
+        height: 250px;
+    }
+
+    .titleWrapper {
+        width: 280px;
+    }
+
     .title {
         font-size: 18px;
-
     }
 
 

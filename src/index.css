@@ -12,6 +12,8 @@ body {
   font-stretch: normal;
   font-size: 14px;
   line-height: 1.8;
+  letter-spacing: 1px;
+
 }
 
 code {
