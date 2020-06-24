@@ -10,18 +10,16 @@ const Contacts = () => {
                 <Title titleName={"Контакты"}/>
                 <div className={styles.formWrapper}>
                     <div className={styles.inputWrapper}>
-                        <input className={styles.input} type="text" placeholder="Name"/>
+                        <input className={styles.input} type="text" placeholder="Имя"/>
                     </div>
                     <div className={styles.inputWrapper}>
                         <input className={styles.input} type="text" placeholder="E-mail"/>
                     </div>
                     <div className={styles.textareaWrapper}>
                         <textarea
-
                             className={styles.textarea}
-                            placeholder="Your message"
+                            placeholder="Сообщение"
                             wrap="off">
-
                         </textarea>
                     </div>
                 </div>

@@ -33,8 +33,10 @@
     resize: none;
     overflow: auto;
     color: #808080;
+}
 
-
+.send {
+    margin-bottom: 60px;
 }
 
 

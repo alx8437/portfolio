@@ -18,7 +18,25 @@
     display: flex;
     justify-content: space-between
 }
+
+.socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+}
+
 .copyright {
+    font-size: 12px;
+    opacity: 0.6;
     padding:  20px;
 }
 

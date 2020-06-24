@@ -4,5 +4,12 @@
     letter-spacing: 1px;
     padding: 7px 20px;
     border: none;
-
+    background-color: transparent;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    outline: none;
 }
