@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import photo from '../../../assets/images/garrett-parker-DlkF4-dbCOU-unsplash.webp'
-import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
+import {FlexWrapper} from "../../../components/StyledComponents/FlexWrapper.tsx";
 
 export const Main = () => {
     return (
