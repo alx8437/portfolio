@@ -41,4 +41,9 @@ export const GlobalStyle = createGlobalStyle`
     section:nth-of-type(even) {
         background-color: ${theme.color.secondaryBg};
     }
+    
+    section {
+        padding: 100px 0;
+        
+    }
 `
