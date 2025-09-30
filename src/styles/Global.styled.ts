@@ -23,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     
     a {
         text-decoration: none;
+        color: ${theme.color.font};
     }
     
     ul {
@@ -32,6 +33,8 @@ export const GlobalStyle = createGlobalStyle`
     button {
         background-color: unset;
         border: none;
+        color: ${theme.color.font};
+        cursor: pointer;
     }
     
     section:nth-of-type(odd) {
@@ -44,6 +47,18 @@ export const GlobalStyle = createGlobalStyle`
     
     section {
         padding: 100px 0;
-        
     }
+    
+    h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.06em;
+    }
+    
+    p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
 `
