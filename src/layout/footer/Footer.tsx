@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {Icon} from "../../components/Icon/Icon.tsx";
 import {FlexWrapper} from "../../components/StyledComponents/FlexWrapper.tsx";
+import {theme} from "../../styles/Theme.ts";
 
 export const Footer = () => {
     return (
@@ -39,6 +40,10 @@ export const Footer = () => {
 };
 
 const Name = styled.span`
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.14em;
 `
 
 const SocialItem = styled.li`
@@ -53,9 +58,13 @@ const SocialLink = styled.a`
 `
 
 const CopyRight = styled.small`
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.5;
 `
 
 const StyledFooter = styled.footer`
-    background-color: #b796cf;
-    min-height: 20vh;
+    background-color: ${theme.color.primaryBg};
+    padding: 40px 0;
 `
