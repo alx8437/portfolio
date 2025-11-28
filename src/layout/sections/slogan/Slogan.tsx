@@ -9,7 +9,7 @@ export const Slogan = () => {
             <StyledSlogan>
                 <Container>
                     <FlexWrapper direction={'column'} align={'center'}>
-                        <SectionTitle>I Am Available For Freelance</SectionTitle>
+                        <SectionTitle>Lorem Ipsum Dolor</SectionTitle>
                         <Button>Hire me</Button>
                     </FlexWrapper>
                 </Container>
